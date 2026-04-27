@@ -1,4 +1,4 @@
-# Mini CRM Dashboard
+i# Mini CRM Dashboard
 This project is a Mini CRM (Customer Relationship Management System) built to manage client leads efficiently.
 It simulates how real businesses collect, track, and convert leads into customers.
 
@@ -38,7 +38,8 @@ The system allows admins to:
 ## 1. Clone the repo
 ```bash
 git clone https://github.com/yaraalhammouri/FUTURE_FS_02.git
-cd FUTURE_FS_02```
+cd FUTURE_FS_02
+```
 
 ### 2. Setup Backend
 cd server
