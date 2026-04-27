@@ -1,4 +1,4 @@
-i# Mini CRM Dashboard
+# Mini CRM Dashboard
 This project is a Mini CRM (Customer Relationship Management System) built to manage client leads efficiently.
 It simulates how real businesses collect, track, and convert leads into customers.
 
