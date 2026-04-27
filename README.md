@@ -22,7 +22,7 @@ The system allows admins to:
 - Simple login system (frontend)
 
 
-## 🛠 Tech Stack
+## Tech Stack
 **Frontend:**
 - React.js
 - HTML/CSS
@@ -33,19 +33,19 @@ The system allows admins to:
 - Express.js
 - MongoDB (Mongoose)
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ## 1. Clone the repo
 ```bash
 git clone https://github.com/yaraalhammouri/FUTURE_FS_02.git
-cd FUTURE_FS_02
+cd FUTURE_FS_02```
 
-## 2. Setup Backend
+### 2. Setup Backend
 cd server
 npm install
 
-MONGO_URI=your_mongodb_connection_string
-PORT:5001
+MONGO_URI= your_mongodb_connection_string
+PORT= 5001
 start server: node index.js
 
 ## 3. Setup Frontend
