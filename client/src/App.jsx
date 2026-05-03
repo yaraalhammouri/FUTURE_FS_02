@@ -53,7 +53,7 @@ function App() {
   const fetchLeads = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5001/api/leads");
+      const res = await axios.get("https://future-fs-02-74h5.onrender.com/api/leads/");
       setLeads(res.data);
       setError("");
     } catch (err) {
@@ -66,7 +66,7 @@ function App() {
 
   const updateStatus = async (id, status) => {
     try {
-      await axios.put(`http://localhost:5001/api/leads/${id}`, { status });
+      await axios.put(`https://future-fs-02-74h5.onrender.com/api/leads/${id}`, { status });
       fetchLeads();
     } catch (err) {
       setError("Failed to update status.");
@@ -75,7 +75,7 @@ function App() {
 
   const deleteLead = async (id) => {
     try {
-      await axios.delete(`http://localhost:5001/api/leads/${id}`);
+      await axios.delete(`https://future-fs-02-74h5.onrender.com/api/leads/${id}`);
       fetchLeads();
     } catch (err) {
       setError("Failed to delete lead.");
@@ -92,7 +92,7 @@ function App() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5001/api/leads", {
+      await axios.post("https://future-fs-02-74h5.onrender.com/api/leads/", {
         ...form,
         source: "Website Form",
       });
